@@ -1,12 +1,12 @@
 ---
-title: "Command — Visual Design Brief (MVP)"
+title: "Command — Design Brief (MVP)"
 project: Innovative Safe Solutions
 status: Ready for artist hand-off
-audience: Visual / UI artists
+audience: UX, UI, and application designers
 date: 2026-06-19
 ---
 
-# Command — Visual Design Brief (MVP)
+# Command — Design Brief (MVP)
 
 *The board, its vocabulary, and the journey.*
 

@@ -4,11 +4,26 @@ This repository captures the working body of knowledge for Enterprise Playabilit
 
 The repo is intentionally Markdown-first. Chat is the discovery space; this repository is the stabilized shared memory.
 
+## Start Here
+
+For first-time readers, read the repository in this order:
+
+1. Read [Enterprise Playability (EP) – A Working Primer](philosophy/enterprise-playability.md) for the broader EP framework.
+2. Read [Persona-Driven UCD and Jobs to Be Done – Synthesis for ISS](philosophy/persona-driven-ucd-and-jtbd.md) to understand how we use User-Centered Design, personas, and Jobs to be Done.
+3. Read [Viper: A Short Tour](philosophy/viper.md) for the core method language.
+4. Refer to [Primary Persona: Scott](command/persona-scott-decision-facilitator.md) to understand who Command is built for.
+5. See [Command — Design Brief (MVP)](command/design-brief.md) for details on the design of Command.
+6. Read [Command Conceptual Domain Model](command/conceptual-domain-model.md) for the high-level domain model of Command.
+7. Use [YTHO](YTHO.md) to understand and preserve why important project decisions were made.
+
+This order introduces the philosophy, the design method, the first application, the founding persona, the domain language, and the decision history.
+
 ## Repository structure
 
 ```text
 ep/
   README.md
+  YTHO.md
   philosophy/
     enterprise-playability.md
     gamestorming.md
@@ -29,6 +44,18 @@ ep/
     wireframes/
     diagrams/
 ```
+
+## Working Principles
+
+Nothing becomes truth until it is promoted into this repository.
+
+Conversation is where ideas are explored, challenged, and refined. The repository is where accepted understanding is preserved. Every document in this repository represents the team's best current understanding and should be updated as that understanding evolves.
+
+Because this repository is public, our default operating model is transparent by design. Significant decisions, their rationale, and the concepts that guide Enterprise Playability should be captured here so that others can understand not only *what* we believe, but *why* we believe it.
+
+## Why We Made These Decisions
+
+See [YTHO](YTHO.md) for the decision records explaining why this repository and its documents are organized the way they are.
 
 ## Working agreement
 

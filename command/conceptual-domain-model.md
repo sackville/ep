@@ -4,56 +4,7 @@
 
 This model describes the conceptual truths Command must preserve. It is not a database schema, object model, service boundary, or UI specification. Its purpose is to establish the ubiquitous language used by founders, designers, engineers, and AI collaborators while designing and building Command.
 
-## Rule 0: Model reality, not implementation
-
-The conceptual model answers:
-
-> What truths exist in the world of Command?
-
-It does not answer:
-
-- how those truths are stored;
-- which aggregate owns them;
-- which table contains them;
-- which service publishes them;
-- how the UI renders them.
-
-Those decisions come later.
-
-## Core thesis
-
-Command maintains a shared model of reality so a team can understand what has been decided, what is true now, what is possible next, and why.
-
-The dependency graph is the current visual mechanism for that purpose. It is not the purpose itself.
-
-## Top-level ontology
-
-```text
-Shared Understanding
-│
-├── Reality
-│   ├── Objectives
-│   ├── Decisions
-│   ├── Processes
-│   ├── External Forces
-│   └── Relationships
-│
-├── Representation
-│   └── Board
-│       ├── Nodes
-│       ├── Edges
-│       ├── Wake
-│       ├── Frontier
-│       └── Seam
-│
-└── Evolution
-    ├── Decision Records
-    ├── Change Events
-    ├── Reopening Conditions
-    └── Organizational Memory
-```
-
-## Foundational concepts
+## Foundational Concepts
 
 ### Shared Understanding
 
@@ -122,6 +73,68 @@ The Wake is the primary visual region for settled, dated organizational memory.
 
 **Notes**  
 Organizational Memory is Command's application-level counterpart to the YTHO idea: preserving the why behind important decisions.
+
+## Modeling Philosophy
+
+The Conceptual Domain Model describes the truths that exist within Command.
+
+It intentionally avoids implementation concerns, persistence, service boundaries, APIs, and user interface design.
+
+Nodes do not define the domain.
+Relationships do not define the visualization.
+
+Instead, the domain model defines reality, while the board reveals the team's current shared understanding of that reality.
+
+Visualization concepts such as the Wake, Frontier, and Seam are projections over domain concepts rather than the concepts themselves.
+
+## Rule 0: Model reality, not implementation
+
+The conceptual model answers:
+
+> What truths exist in the world of Command?
+
+It does not answer:
+
+- how those truths are stored;
+- which aggregate owns them;
+- which table contains them;
+- which service publishes them;
+- how the UI renders them.
+
+Those decisions come later.
+
+## Core thesis
+
+Command maintains a shared model of reality so a team can understand what has been decided, what is true now, what is possible next, and why.
+
+The dependency graph is the current visual mechanism for that purpose. It is not the purpose itself.
+
+## Top-level ontology
+
+```text
+Shared Understanding
+│
+├── Reality
+│   ├── Objectives
+│   ├── Decisions
+│   ├── Processes
+│   ├── External Forces
+│   └── Relationships
+│
+├── Representation
+│   └── Board
+│       ├── Nodes
+│       ├── Edges
+│       ├── Wake
+│       ├── Frontier
+│       └── Seam
+│
+└── Evolution
+    ├── Decision Records
+    ├── Change Events
+    ├── Reopening Conditions
+    └── Organizational Memory
+```
 
 ## Operational concepts
 
