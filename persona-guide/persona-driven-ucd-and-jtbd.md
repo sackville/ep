@@ -1,4 +1,4 @@
-# Persona-Driven UCD and Jobs to Be Done — Synthesis for ISS
+# Persona-Driven UCD and Jobs to Be Done
 
 *A working synthesis of how we build applications: how User-Centered Design, Jobs to Be Done, and personas fit together, and how that frame interlocks with our EP, ToMo, and Viper concepts. This is a living document and sits at the leading edge of EP and Viper thinking; as the ideas sharpen, refinements flow back into the standalone EP and Viper projects.*
 
@@ -96,7 +96,7 @@ We are not positioning against SDD publicly right now; that's potential blog/Lin
 
 ## Terminology
 
-We say **persona**. We've retired "ad hoc," following Tamara Adlin, who dropped both "ad hoc" and "data-driven" as qualifiers and simply uses the term. When we're explicitly contrasting with data-driven personas or with specs, we may reach for a precision phrase — *singular, real-person-anchored persona* — but the default term is just *persona*.
+We say **persona**. We've retired "ad hoc," following Tamara Adlin, who dropped both "ad hoc" and "data-driven" as qualifiers and simply uses "persona." When we're explicitly contrasting with data-driven personas or with specs, we may reach for a precision phrase — *singular, real-person-anchored persona* — but the default term is just *persona*.
 
 ---
 

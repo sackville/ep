@@ -1,4 +1,4 @@
-# Total Motivation (ToMo): A Primer for ISS
+# Total Motivation (ToMo): A Primer
 
 *Concepts from* Primed to Perform *(Neel Doshi & Lindsay McGregor), and what they mean for how we design our applications and our organization.*
 
@@ -22,13 +22,13 @@ Where I reach for concrete examples, I anchor them to our flagship concepts — 
 
 The spectrum runs from most-direct (closest to the work) to most-indirect (furthest from it). The closer a motive sits to the work itself, the more powerful it is — which is why each carries a different weight.
 
-**Direct motives — these raise performance:**
+### Direct motives — these raise performance
 
 - **Play.** You do the work because you enjoy the work itself — curiosity, experimentation, the satisfaction of the activity. The single most powerful motive.
 - **Purpose.** You do the work because you value its outcome and effect, even when the activity itself isn't enjoyable.
 - **Potential.** You do the work because it advances something you personally care about — a goal, mastery, growth. Still direct, but one step removed from the work, so the weakest of the three.
 
-**Indirect motives — these lower performance:**
+### Indirect motives — these lower performancex
 
 - **Emotional pressure.** You work to avoid guilt, shame, fear, or disappointing others. The motive lives in your self-image, not the work.
 - **Economic pressure.** You work to gain a reward or avoid a punishment that is separate from the work and from who you are.
@@ -56,7 +56,7 @@ Because adaptive performance is invisible to metrics, organizations over-instrum
 ToMo is computed from six survey items — one per motive — each scored by the respondent, multiplied by a weight, then added (direct) or subtracted (indirect). The weights are heaviest at the extremes of the spectrum and were derived empirically across thousands of employees; they're tuned both to predict adaptive performance and to land the result on a clean **−100 to +100** scale.
 
 | Motive | Type | Survey item (paraphrased) | Weight | Operation |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Play | Direct | I keep working here because the work itself is fun to do | 10 | add |
 | Purpose | Direct | …because I believe this work has an important purpose | 5 | add |
 | Potential | Direct | …because this kind of work helps me reach my personal goals | 1.66 | add |
@@ -64,7 +64,15 @@ ToMo is computed from six survey items — one per motive — each scored by the
 | Economic pressure | Indirect | …because without it I'd worry about meeting financial obligations | 5 | subtract |
 | Inertia | Indirect | there's no good reason why I keep working here | 10 | subtract |
 
-**ToMo = (10 × Play) + (5 × Purpose) + (1.66 × Potential) − (1.66 × Emotional) − (5 × Economic) − (10 × Inertia)**
+```plain
+ToMo = 
+         (10 × Play)
+       + (5 × Purpose)
+       + (1.66 × Potential)
+       − (1.66 × Emotional)
+       − (5 × Economic) 
+       − (10 × Inertia)
+```
 
 A note on the symmetry: the magnitudes mirror across the spectrum's midpoint (±10, ±5, ±1.66). That's partly empirical and partly an artifact of scaling to −100/+100 — it is *not* a theoretical claim that play and inertia are exactly equal-and-opposite forces. The claim the authors actually stake is the ordering: play beats purpose beats potential, and proximity to the work drives power. In practice the survey scrambles item order so respondents can't pattern-match the structure.
 
@@ -132,4 +140,4 @@ The weights above — Play 10, Purpose 5, Potential 1.66, Emotional pressure 1.6
 
 ---
 
-*Source: Doshi, N. & McGregor, L.,* Primed to Perform: How to Build the Highest Performing Cultures Through the Science of Total Motivation *(2015). Survey items paraphrased.*
+Source: Doshi, N. & McGregor, L., *Primed to Perform: How to Build the Highest Performing Cultures Through the Science of Total Motivation* (2015). Survey items paraphrased.

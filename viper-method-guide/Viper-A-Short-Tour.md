@@ -1,6 +1,6 @@
 # Viper: A Short Tour
 
-*The Diagram, the Method, and the Platform — for Russ and Cynthia*
+The Diagram, the Method, and the Platform
 
 ---
 
@@ -14,7 +14,7 @@ Zhamak Dehghani's Data Mesh fit this like a glove — domain ownership, data-as-
 
 ## The Diagram
 
-![The Viper Diagram](Viper_Diagram.png)
+![The Viper Diagram](../assets/diagrams/viper-diagram.jpeg)
 
 To explain all this, there's a picture. Applications run along the top as golden arrows, each starting when its customer need arrives and each meeting a real demand. Underneath, the platform's capabilities grow as a dark blue staircase — every step up is a moment when a proven application need justified extending the platform. Red lines drop from the applications into the platform to show where those needs land.
 

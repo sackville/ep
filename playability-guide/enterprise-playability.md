@@ -1,12 +1,12 @@
 # Enterprise Playability (EP) — A Working Primer
 
-*For Claude. Drop this into any project where we're designing or building EP software. It's meant to orient you and shape how you reason about the work — not to sell the idea. Scott (Ratchet Agency) is the originator; treat him as a peer, not an audience.*
+*For Claude. Drop this into any project where we're designing or building EP software. It's meant to orient you and shape how you reason about the work — not to sell the idea. Scott (founder at ISS, principal at The Ratchet Agency) is the originator; treat him as a peer, not an audience.*
 
 ## The thesis
 
 Enterprise software is hard to use, hard to learn, and uncompelling. Video games are the opposite — easy to learn, easy to use, and engaging enough that people choose to spend their evenings inside them. EP starts from that contrast and asks the obvious question: why not learn from the one category of software that has spent decades solving exactly the problems enterprise software ignores?
 
-EP is the disciplined combination of three things: **user-centered design, gamification, and video-game-like playable interfaces.** The goal is to make people feel like *players* rather than *users*. Work isn't literally a game, but making a game of it can make it dramatically better — more motivating, more legible, more productive.
+EP is the disciplined combination of three things: **user-centered design, gamification, and video-game-like playable interfaces.** The goal is to make people feel like *players* rather than *users*. Work isn't literally a game, but making a game of it can make it dramatically better — more motivating, more legible, more productive. Treating enterprise software users as players is a way to *dramatically improve usability*.
 
 EP is both a **design philosophy** and a **development methodology.** Building an EP application is a meaningfully different process from standard enterprise app development, and you should expect to make different decisions because of it (more on that below).
 
@@ -26,7 +26,7 @@ Four principles do most of the load-bearing work. Hold them in tension; none of 
 
 - **Progress, goals, and rewards made constant and clear.** Games give you a continuous read on how you're doing — points, levels, XP, achievements, leaderboards — and goals that are unambiguous because they're written into the rules. They usually offer multiple paths to the same goal and milestones along the way. Enterprise software almost never tells you how you're doing. Build the progress indicator in from the start; it's not decoration.
 
-- **The dopamine layer (and its ethics).** Reward loops are the engine — variable rewards, the next score always within reach, escalating achievement. And the Post-It-star evidence shows the *signal* of reward matters more than its intrinsic value: people weren't collecting stars, they were collecting status. **But here's where you should push back rather than just apply the playbook.** Game players can quit; enterprise users often can't. A game that hooks you keeps a customer who chose to be there; an enterprise app that engineers compulsion has a captive subject who didn't. So aim the toolkit at making good work *legible and satisfying* — removing friction, celebrating real progress — not at manufacturing compulsion a user would resent if they saw the strings. That line is the difference between EP and a dark pattern, and it's a design responsibility, not an afterthought.
+- **The dopamine layer (and its ethics).** Reward loops are the engine — variable rewards, the next score always within reach, escalating achievement. And [the Post-It-star evidence](../../ratchet.agency/src/blog/real-rewards.md) shows the *signal* of reward matters more than its intrinsic value: people weren't collecting stars, they were collecting status. **But here's where you should push back rather than just apply the playbook.** Game players can quit; enterprise users often can't. A game that hooks you keeps a customer who chose to be there; an enterprise app that engineers compulsion has a captive subject who didn't. So aim the toolkit at making good work *legible and satisfying* — removing friction, celebrating real progress — not at manufacturing compulsion a user would resent if they saw the strings. That line is the difference between EP and a dark pattern, and it's a design responsibility, not an afterthought.
 
 A note on **metaphor**: it helps right up until it breaks, then it actively disorients (a Windows "desktop" is nothing like a desktop). You have two honest options — commit to genuine immersion/realism, or drop the metaphor and just make the thing easy. Don't ship a tenuous half-metaphor that the user has to keep reconciling with reality. Games, notably, combine immersive worlds with non-representational UI (HUDs, menus) and feel no obligation to make the chrome look like anything real. That's a good model: representational where it builds understanding, abstract where it doesn't.
 
@@ -72,7 +72,7 @@ Bring the instincts of a game designer who *also* understands enterprise softwar
 A few open threads worth holding (not yet resolved, so don't pretend they are):
 
 - **Genuine goal conflict.** Goal-driven design handles *misaligned* user/business goals elegantly. It's less obvious what to do when they're truly in *tension* — e.g. a salesperson's goal of closing any deal fast vs. the business goal of closing high-margin deals slowly. Reward design alone may not be enough.
-- **Shared situational awareness** in team-based EP apps is a whole dimension that deserves its own treatment.
+- **Shared situational awareness** in team-based (i.e. multi-player) EP apps is a whole dimension that deserves its own treatment.
 - **The ethics line** on reward/compulsion mechanics, given that enterprise users can't simply walk away.
 
 When in doubt: reduce the distance between the user and the work — contextually, motivationally, and visually. Enterprise software creates distance at every layer. Games collapse it. So does EP.
