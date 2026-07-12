@@ -13,9 +13,9 @@ For first-time readers working on EP guidance, read the repository in this order
 1. Read [Enterprise Playability (EP) – A Working Primer](playability-guide/enterprise-playability.md) for the broader EP framework.
 2. Read [Persona-Driven UCD and Jobs to Be Done](persona-guide/persona-driven-ucd-and-jtbd.md) to understand how we use User-Centered Design, personas, and Jobs to be Done.
 3. Read [Viper: A Short Tour](viper-method-guide/Viper-A-Short-Tour.md) for the core method language.
-4. Refer to [Primary Persona: Scott](../viper/viper-command/persona-scott.md) to understand who Command is built for.
-5. See [Viper Command Design Brief](../viper/viper-command/design-brief.md) for details on the design of Command.
-6. Read [Viper Command Conceptual Domain Model](../viper/viper-command/conceptual-domain-model.md) for the high-level domain model of Command.
+4. Refer to [Primary Persona: Scott](../viper/viper-command/docs/persona-scott.md) to understand who Command is built for.
+5. See [Viper Command Design Brief](../viper/viper-command/docs/design-brief.md) for details on the design of Command.
+6. Read [Viper Command Conceptual Domain Model](../viper/viper-command/docs/conceptual-domain-model.md) for the high-level domain model of Command.
 7. Use [YTHO](../ratchet.agency/src/blog/ytho-md.md) to understand and preserve why important project decisions were made.
 
 This order introduces the philosophy, the design method, the first application, the founding persona, the domain language, and the decision history.
