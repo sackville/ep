@@ -16,7 +16,7 @@ Develop a concise, well-referenced EP framework that coherently uses the essenti
 
 ## Status
 
-**Current:** Step 2 — Build the framework crosswalk.
+**Current:** Step 3 — Identify overlaps, seams, tensions, and unique contributions.
 
 ## Checklist
 
@@ -24,19 +24,19 @@ Develop a concise, well-referenced EP framework that coherently uses the essenti
   - Capture the DDD, agile development, Lean Startup/BMC, UCD, BDD, and game-design assessments of Viper Command.
   - Preserve their important detail, qualifications, and references without reconciling them yet.
   - Outputs:
-    - [Domain-Driven Design](process-reconciliation/source-analyses/ddd.md)
-    - [Agile development](process-reconciliation/source-analyses/agile-development.md)
-    - [Lean Startup and Business Model Canvas](process-reconciliation/source-analyses/lean-startup-and-bmc.md)
-    - [User-Centered Design](process-reconciliation/source-analyses/user-centered-design.md)
-    - [Behavior-Driven Development](process-reconciliation/source-analyses/behavior-driven-development.md)
-    - [Game design](process-reconciliation/source-analyses/game-design.md)
+    - [Domain-Driven Design](source-analyses/ddd.md)
+    - [Agile development](source-analyses/agile-development.md)
+    - [Lean Startup and Business Model Canvas](source-analyses/lean-startup-and-bmc.md)
+    - [User-Centered Design](source-analyses/user-centered-design.md)
+    - [Behavior-Driven Development](source-analyses/behavior-driven-development.md)
+    - [Game design](source-analyses/game-design.md)
 
-- [ ] **2. Build the framework crosswalk.** **Current**
+- [x] **2. Build the framework crosswalk.**
   - Compare what each lens contributes across recurring activities.
   - Record each contribution's artifacts, evidence sought, dependencies, and failure modes prevented.
-  - Output: *Pending.*
+  - Output: [Framework Crosswalk](framework-crosswalk.md)
 
-- [ ] **3. Identify overlaps, seams, tensions, and unique contributions.**
+- [ ] **3. Identify overlaps, seams, tensions, and unique contributions.** **Current**
   - Separate genuine common commitments from productive handoffs.
   - Preserve irreducible tensions instead of smoothing them away.
   - Output: *Pending.*
